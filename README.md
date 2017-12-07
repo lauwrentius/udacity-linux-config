@@ -13,7 +13,7 @@ The server ip address is http://54.186.251.118/
 
 1. Connect to the Server SSH
 
-2. Upgrade/Update exsisting packages
+2. Upgrade/Update existing packages
   * Update packages `sudo apt-get update`
   * Upgrade packages `sudo apt-get upgrade`
 
@@ -23,11 +23,11 @@ The server ip address is http://54.186.251.118/
   * Insert `grader ALL=(ALL:ALL) ALL`
 
 4. Create ssh Access
-    * Generate SSH Key locally `ssh-keygen`    
-    * `mkdir /home/grader/.ssh`
-    * `nano ~/.ssh/authorized_keys`
-    * paste the public key that was created locally.
-    * Test ssh connection using the key ssh grader  `ssh -i udacity-grader-keys -p 2200 grader@54.200.192.158`
+  * Generate SSH Key locally `ssh-keygen`    
+  * `mkdir /home/grader/.ssh`
+  * `nano ~/.ssh/authorized_keys`
+  * paste the public key that was created locally.
+  * Test ssh connection using the key ssh grader  `ssh -i udacity-grader-keys -p 2200 grader@54.200.192.158`
 
 5. Secure the ports and connections
   * Run `sudo nano /etc/ssh/sshd_config`
