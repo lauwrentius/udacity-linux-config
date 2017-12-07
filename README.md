@@ -6,7 +6,7 @@ This is a project assigned by Udacity in part of the Udacity Full Stack Nanodegr
 
 This project is prepare a Linux server using AWS Lightsail to host a web apps. The server needs to be: secured from a number of attack vectors, install and configure a database server, and deploy one of your existing web applications onto it.
 
-The server ip address is http://54.186.251.118/
+The server ip address is http://54.200.192.158/
 
 
 ## Walkthrough Steps
